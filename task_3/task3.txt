@@ -1,0 +1,14 @@
+Input: string passed to the program as a command line argument. It may contain spaces, letters of the alphabet in any case and numbers. To send a string value that contains spaces in quotation marks is taken.
+
+The result: string "YES", if the resulting string is a palindrome, or "NO" - otherwise. The line is considered to be a palindrome if it reads the same both left to right and right to left. The difference registers and neglected spaces.
+
+Example
+Input: 0
+Example call: python lab4_1.py 0
+Result: YES
+Input: puppy
+Example call: python lab4_1.py puppy
+Result: NO
+Input: "mystring1Gni rts ym"
+Example call: python lab4_1.py "mystring1Gni rts ym"
+Result: YES

@@ -1,0 +1,14 @@
+Input: arbitrary, nonzero, the number of values ??- command line arguments. Value-arguments can be numbers or strings consisting of numbers and letters without any spaces.
+
+The result: a string consisting of values ??obtained in the reverse order, recorded through a gap. Space at the end of the line for it.
+
+Example
+Input: 1
+Example call: python lab4_3.py 1
+Results: 1
+Input: qwe asd zxc 123
+Example call: python lab4_3.py qwe asd zxc 123
+Result: 123 zxc asd qwe
+Input: padawan young my HAVE MUST YOU PATIENCE
+Example call: python lab4_3.py padawan young my HAVE MUST YOU PATIENCE
+Result: PATIENCE YOU MUST HAVE my young padawan

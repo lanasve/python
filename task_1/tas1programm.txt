@@ -1,0 +1,16 @@
+import sys
+import math
+a1=int(sys.argv[1])
+a2=int(sys.argv[2])
+count=0
+for i in range(a1,a2+1):
+	temp6=i//100000
+	temp5=i%100000//10000
+	temp4=i%100000%10000//1000
+	temp=i%100000%10000%1000
+	temp3=temp//100
+	temp2=temp%100//10
+	temp1=temp%100%10	
+	if (temp6+temp5+temp4==temp3+temp2+temp1):
+		count=count+1
+print count

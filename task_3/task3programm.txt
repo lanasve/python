@@ -1,0 +1,9 @@
+import sys
+text=str(sys.argv[1])
+text=text.lower()
+text=text.replace(" ","")
+text_back=text[::-1]
+if text_back==text:
+	print "YES"
+else: 
+	print "NO"

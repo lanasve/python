@@ -1,0 +1,28 @@
+Input: string consists of opening and closing parentheses - 
+command line argument. 
+For transmission line as a sequence set in double quotes.
+
+The result: string "YES", if the input string contains 
+the correct sequence parentheses; or line "NO", if the sequence 
+is incorrect. Sequence of parentheses is correct when 
+all brackets can be divided in pairs "opening" - "closing", 
+whereby each pair of parentheses following the closing the opening.
+
+The explanation for mathematicians:
+"" - (Empty string) - parentheses sequence is correct (PSC)
+"(PSC)" - as PSC
+"PSCPSC" (two PSC recorded together) - is PSC
+
+Example
+Incoming data: ")("
+Example call: python lab4_3.py ") ("
+Result: NO
+Incoming data: "(()(()"
+Example call: python lab4_3.py "(() (()"
+Result: NO
+Incoming data: "(()(()()))"
+Example call: python lab4_3.py "(() (() ()))"
+Result: YES
+Incoming data: "())()(()())(()"
+Example call: python lab4_3.py "()) () (() ()) (()"
+Result: NO

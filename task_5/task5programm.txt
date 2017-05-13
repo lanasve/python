@@ -1,0 +1,8 @@
+import sys
+text=str(sys.argv[1])
+for i in range(len(text)/2):
+	text=text.replace("()","")
+if text=="":
+	print "YES"
+else:
+	print "NO"

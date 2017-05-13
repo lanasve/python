@@ -1,0 +1,26 @@
+The task involves searching for "lucky" ticket. 
+"Happy" is called a trolley ticket in which the sum of the first three digits 
+equals the sum of the three. 
+For example 030 111 (3 + 0 + 0 = 1 + 1 + 1) 
+902 326 (9 + 0 + 2 = 2 + 3 + 6) 
+001 100 (0 + 0 + 1 = 1 + 0 + 0).
+
+Input: two nonnegative number (0 <= a1 <= a2 <= 999 999) - command line arguments.
+
+The result: the number of "lucky tickets", whose numbers are in the range from a1 to a2 inclusive. 
+If the number is in the range of less than 6 bits, believe that at the beginning zeros appended 
+in the required amount, as it happens when the numbering of tickets. Output numbers of tickets not.
+
+Example
+Input: 0 1000
+Example call: python lab4_4.py 1000 0
+Results: 1
+Explanation: The number 000000
+Input: 1001 1122
+Example call: python lab4_4.py 1001 1122
+Result: 3
+Explanation: The numbers 001001, 001010, 001100
+Input: 222222 222333
+Example call: python lab4_4.py 222 222 222 333
+Result: 7
+Explanation: The numbers 222222, 222231, 222240, 222303, 222312, 222321, 222330

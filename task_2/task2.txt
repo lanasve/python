@@ -1,0 +1,18 @@
+The program has to count the number of the Fibonacci sequence. 
+Fibonacci sequence - a sequence of numbers in which each element is the sum of the previous two. 
+This is considered zero element 0 and 1. So first, the sequence is as follows:
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, ...
+
+Input: non-negative integer n. Transmitted to the program as a command line argument.
+
+The result: the value of the n-th Fibonacci number sequence.
+
+Please do not use recursion.
+
+Example
+Input: 0
+Example call: python lab3_2.py 0
+Result: 0
+Input: 10
+Example call: python lab3_2.py 10
+Result: 55
